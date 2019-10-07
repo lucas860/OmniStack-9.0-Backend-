@@ -6,6 +6,6 @@ module.exports = {
 
         const spots = await Spot.find({ user });
 
-        return res.json({ spots });
+        return res.json( spots );
     }
 };
